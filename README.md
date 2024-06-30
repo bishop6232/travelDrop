@@ -1,4 +1,3 @@
-# travelDrop
 
 # how to run the app
 
