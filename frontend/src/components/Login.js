@@ -46,10 +46,7 @@ function Login() {
                
             </div>     
        </div>
-       <img src='images/map.png' alt='map' style={{display: 'none'}}></img>
-        <img  src='images/Transportation.png' alt='transport' style={{display: 'none'}}></img>   
-        <img  src='images/parcel.png' alt='parcel' style={{display: 'none'}}></img> 
-        <img  src='images/box.png' alt='box' style={{display:'none'}}></img>
+      
     </>
   )
 }

@@ -81,7 +81,7 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 height: 100vh;
-background-image: url("/Users/uzomamaduakolam/HTML coding/Maduakolam-Uzoma-co2-assignment-2 2/frontend/public/images/airplane.png");
+background-image: url("../public/images/airplane.png");
 
 }
 
