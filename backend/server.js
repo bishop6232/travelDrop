@@ -45,7 +45,7 @@ app.post('/api/offers', (req, res) => {
 
         const userId = results[0].user_id;
 
-        const offerQuery = `INSERT INTO offer (User_id, title, insert_date, travel_date, from_airport, to_airport, type, cost, Likes, Dislikes)
+        const offerQuery = `INSERT INTO offer (User_id, Title, Insert_Date, Travel_Date, From_Airport, To_Airport, Type, Cost, Likes, Dislikes)
                             VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0, 0)`;
 
         const values = [userId, title, insertDate, travelDate, fromAirport, toAirport, type, cost];
