@@ -22,7 +22,7 @@ function CreateUser() {
     
       const handleSubmit = (event) => {
         event.preventDefault();
-        axios.post('http://localhost:3000/api/users', userData)
+        axios.post('https://localhost:3000/api/users', userData)
           .then((response) => {
             console.log('User created successfully:', response.data);
             alert('User created successfully');
